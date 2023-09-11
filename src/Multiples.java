@@ -1,11 +1,11 @@
 public class Multiples {
-    public static int main(String[] args) {
+    public static int multiples(int n, int a, int b) {
     int count = 0;
     int i = 1;
-    while(i < 1000){
-        if(i % 3 == 0){
+    while(i < n){
+        if(i % a == 0){
             count = count + 1;
-        } else if (i % 5 == 0) {
+        } else if (i % b == 0) {
             count = count + 1;
         }
         i = i + 1;

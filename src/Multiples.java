@@ -1,5 +1,5 @@
 public class Multiples {
-    public static void main(String[] args) {
+    public static int main(String[] args) {
     int count = 0;
     int i = 1;
     while(i < 1000){
@@ -10,6 +10,6 @@ public class Multiples {
         }
         i = i + 1;
     }
-    System.out.println(count);
+    return count;
     }
 }
